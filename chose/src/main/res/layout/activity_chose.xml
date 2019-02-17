@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybackground">
+
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Top"
+        style="@android:style/TextAppearance.Large"
+        android:textColor="#d6d4d4"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/txtshape"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        style="@android:style/TextAppearance.Large"
+        android:textColor="#d6d4d4"
+        android:textStyle="bold"
+        android:background="@drawable/txtshape"
+        android:gravity="center"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Next"
+        style="@android:style/TextAppearance.Large"
+        android:background="@drawable/btnshape"
+        android:textColor="#d6d4d4"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+</RelativeLayout>
